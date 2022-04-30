@@ -1,13 +1,11 @@
 import React, { useState } from "react";
-import { FlatList, Text, View } from "react-native";
+import { FlatList, View } from "react-native";
 import { Appointment } from "../../components/Appointment";
-
 import { ButtonAdd } from "../../components/ButtonAdd";
 import { CategorySelect } from "../../components/CategorySelect";
 import { ListDivider } from "../../components/ListDivider";
 import { ListHeader } from "../../components/ListHeader";
 import { Profile } from "../../components/Profile";
-
 import { styles } from "./styles";
 
 export function Home() {

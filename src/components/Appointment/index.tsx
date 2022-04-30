@@ -1,20 +1,16 @@
 import React from "react";
 import {
-  TouchableOpacityProps,
-  TouchableOpacity,
-  View,
   Text,
+  TouchableOpacity,
+  TouchableOpacityProps,
+  View,
 } from "react-native";
-
-import { GuildIcon } from "../GuildIcon";
-
-import { categories } from "../../utils/categories";
-
-import PlayerSVG from "../../assets/player.svg";
 import CalendarSVG from "../../assets/calendar.svg";
-
-import { styles } from "./styles";
+import PlayerSVG from "../../assets/player.svg";
 import { theme } from "../../global/styles/theme";
+import { categories } from "../../utils/categories";
+import { GuildIcon } from "../GuildIcon";
+import { styles } from "./styles";
 
 export type GuildProps = {
   id: string;

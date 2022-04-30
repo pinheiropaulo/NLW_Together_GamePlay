@@ -1,5 +1,6 @@
-import React from "react";
 import { DefaultTheme, NavigationContainer } from "@react-navigation/native";
+import React from "react";
+import { AuthRoutes } from "./app.routes";
 
 const navTheme = {
   ...DefaultTheme,
@@ -8,8 +9,6 @@ const navTheme = {
     background: "transparent",
   },
 };
-
-import { AuthRoutes } from "./app.routes";
 
 export function Routes() {
   return (

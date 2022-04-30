@@ -1,9 +1,8 @@
+import { MaterialCommunityIcons } from "@expo/vector-icons";
 import React from "react";
 import { TouchableOpacity, TouchableOpacityProps } from "react-native";
-import { MaterialCommunityIcons } from "@expo/vector-icons";
-
-import { styles } from "./styles";
 import { theme } from "../../global/styles/theme";
+import { styles } from "./styles";
 
 export function ButtonAdd({ ...rest }: TouchableOpacityProps) {
   return (
